@@ -1,3 +1,4 @@
+/*
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
@@ -8,3 +9,38 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+*/
+
+/* Apply background color matching the image */
+body {
+    background-color: #0d2a4a; /* deep blue from image */
+    margin: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lucida Calligraphy", cursive;
+    font-size: 25px;
+    line-height: 1.5;
+    color: white;
+    border: 10px solid #cd7f32;
+}
+
+/* Center and style the page title */
+h1, title {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+ul {
+    text-align: left;
+    padding: 30px;
+}
+
+/* Style the image with bronze border */
+img {
+    border: 8px solid #cd7f32; /* bronze color */
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto; /* center image */
+}
+

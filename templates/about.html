@@ -4,17 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 
 <body>
     <h1>Nicole Johnson</h1>
-    <p>Hello! I am a 21 year old student studying Information Technology at the University of 
+    <img src="{{ url_for('static', filename='pottermore-profile.png') }}" 
+         alt="Profile Image"
+         width="400">
+    <p>Hello! As you can see, I was formerly a student at Hogwarts School of Witchcraft and Wizardry 
+        where I belonged to the House of Ravenclaw, though I graduated a few years ago. I am currently 
+        pursuing an apprenticeship in Ancient Runes and am hoping to one day qualify as a Runemaster. 
+        I have a particular interest in the study of spellcraft and I hope to one day discover or create 
+        a new spell that will revolutionize the wizarding world.
+        <br><br>
+        Just kidding!
+        <br><br>
+        I am a 21 year old student studying Information Technology at the University of 
         the West Indies, Mona. I am currently in my fourth year of study and I am looking 
         forward to graduating in 2026. I have an interest in website design and I am always 
         trying to find new ways to broaden my horizons. In my free time, I enjoy reading, playing 
         puzzle games, watching movies, listening to music and spending time with my friends.
     </p>
-    <p>Here are some things I like:</p>
+    <p><br>Here are some things I like:</p>
     <ul>
         <li>Favourite Animals: Cats</li>
         <li>Favourite Colour: Red</li>
@@ -22,7 +34,7 @@
         <li>Favourite Anime: The Apothecary Diaries</li>
         <li>Favourite Song: Social Path by Stray Kids (ft LiSA)</li>
     </ul>
-    <p>Looking forward to a great 2026!</p>
+    <p><br>Looking forward to a great 2026!</p>
 </body>
 
 </html>
